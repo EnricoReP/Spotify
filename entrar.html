@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta CHARSET="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDIO MS</title>
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+            color: white;
+        }
+
+        nav {
+            background-color: black;
+        }
+
+        input {
+            background-color: darkslategray;
+        }
+
+        a {
+            color: white;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        #botão-avançar {
+            background-color: rgb(133, 216, 8);
+        }
+
+        #botão {
+            width: 300px;
+        }
+
+        .logo_principal{
+            text-align: center;
+        }
+
+        nav{
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="logo_principal">
+            <table width="100%">
+                    <td class="logo_principal">
+                        <a href="index.html"><img src="./IMAGENS/logo_principal (1).PNG" alt="Spotify" width="60"></a>
+                    </td>
+            </table>
+        </nav>
+        <nav>
+            <a href="index.html"><img src="./IMAGENS/casinha_logo-removebg-preview.png" alt="inicio" width="40"></a>
+            <input type="text" id="barra_pesquisa" placeholder="O que voçê quer ouvir?"><a href="./Navegar.html"><img src="./imagens/Navegar-removebg-preview.png" alt="Navegar" width="45"></a>
+            <a href="instalar.html" id="instalar"><img src="./IMAGENS/download-icon.png" alt="download" width="50">Instalar Aplicativo</a>
+            <a href="./entrar.html" id="entrar_botão">| Entrar |</a>
+            <a href="./login.html" id="login">Faça seu cadastro</a>
+            <br>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <h1>
+                Óla de novo
+            </h1>
+            <section>
+                <p>Endereço de E-mail</p>
+                <input type="email" placeholder="Nome@dominio.com">
+                <br>
+                <a href="./index.html"><input type="button" value="continuar" id="botão-avançar"></a>
+                <br>
+            </section>
+            <section>
+                <p>ou</p>
+                <a href="./index.html">
+                    <br>
+                    <input type="button" value="Continuar com seu numero de telefone" id="botão">
+                    <br>
+                    <input type="button" value="Continuar com o Goggle" id="botão">
+                    <br>
+                    <input type="button" value="Continuar com a Apple" id="botão">
+                    <br>
+                    <input type="button" value="Continuar com o Facebook" id="botão">
+                </a>
+            </section>
+            <section>
+                <p>Ainda não tem uma conta?</p>
+                <br>
+                <a href="./login.html" id="entrar">
+                    <p>Inscreva-se</p>
+                </a>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

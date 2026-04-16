@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta CHARSET="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDIO MS</title>
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+        }
+
+        main {
+            color: white;
+            text-align: center;
+        }
+
+        a {
+            color: white;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        #lista {
+            width: fit-content;
+        }
+
+        #botão-avançar {
+            background-color: rgb(133, 216, 8);
+        }
+
+        #Senha {
+            background-color: darkslategray;
+            color: white;
+        }
+
+        #voltar {
+            background-color: darkslategray;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <form>
+            <p>Etapa 1 de 3</p>
+            <h1>
+                <a href="./login.html"><input type="button" value="<" id="voltar"></a>
+                Crie uma senha
+            </h1>
+            <p>Senha</p>
+            <br>
+            <input type="password" id="Senha">
+            <br>
+            <section>
+                <p id="cont">A senha deve conter pelo menos:</p>
+                <p>• 1 Letra</p>
+                <p>• 1 número ou caractere especial (exemplo: ? @ $ #)</p>
+                <p>• 10 caracteres</p>
+            </section>
+            <a href="./continue2.html"><input type="button" value="Avançar" id="botão-avançar"></a>
+        </form>
+    </main>
+</body>
+
+</html>
